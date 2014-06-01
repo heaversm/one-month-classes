@@ -1,8 +1,4 @@
-body {
-    background: url('../img/site-bg.gif') #353433;
-    background-size: 25%;
-    font-family: 'Open Sans', sans-serif;
-}
+/* reusable styles */
 
 img {
     max-width: 100%;
@@ -46,6 +42,14 @@ ul.no-indent {
 
 .font-weight-light {
     font-weight: 300;
+}
+
+/* page styles */
+
+body {
+    background: url('../img/site-bg.gif') #353433;
+    background-size: 25%;
+    font-family: 'Open Sans', sans-serif;
 }
 
 #content {
