@@ -38,6 +38,7 @@ ul.no-indent {
 
 .container {
     max-width: 640px;
+    min-width: 320px;
 }
 
 .font-weight-heavy {
@@ -200,7 +201,7 @@ body {
     position: absolute;
     left: 0px;
     top: 0px;
-    padding: 15px 64px;
+    padding: 15px 15%;
     width: 100%;
     color: #666;
 }
@@ -235,6 +236,12 @@ body {
     font-weight: 300;
 }
 
+#receipt-close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
 @media (max-width: 991px) {
     #details-aside {
         margin-top: 40px;
@@ -250,5 +257,20 @@ body {
     #details-article {
         padding: 0px 15px;
     }
+
+    #content-receipt.active {
+        -webkit-transform: translateY(25%);
+        transform: translateY(25%);
+    }
+
+}
+
+@media (max-width: 480px) {
+
+    #content-receipt.active {
+        -webkit-transform: translateY(14%);
+        transform: translateY(14%);
+    }
+
 }
 

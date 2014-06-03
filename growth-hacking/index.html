@@ -73,6 +73,7 @@
         <div class="dotmatrix right"></div>
       </div>
       <div id="receipt-shadow"></div>
+      <button type="button" id="receipt-close" class="close btn" aria-hidden="true">&times;</button>
     </section>
 </div>
 <footer id="site-footer">
@@ -107,9 +108,14 @@ Made by <a href="http://onemonth.com" target="_blank"><img id="one-month-footer-
 <script src="js/lib/bootstrap.min.js"></script>
 <script>
   $('#btn-buy').on('click',onBuyClick);
+  $('#receipt-close').on('click',onReceiptClose);
 
   function onBuyClick(){
     $('#content-receipt').addClass('active');
+  }
+
+  function onReceiptClose(){
+    $('#content-receipt').removeClass('active');
   }
 
 </script>
