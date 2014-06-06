@@ -21,7 +21,7 @@
     <section id="content-details" class="row cf">
         <article id="details-article" class="col-sm-8">
             <h1 id="article-title">Growth Hacking <span class="font-weight-light">Crash Course</span></h1>
-            <h3><small>By <a data-toggle="modal" data-target="#author-modal">Mattan Griffel</a></small></h3>
+            <h3><small>By <a href="#" data-toggle="modal" data-target="#author-modal">Mattan Griffel</a></small></h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim porta velit, quis rhoncus nulla. Maecenas mattis pulvinar tempus. Duis tortor odio, interdum et molestie ac, facilisis vitae dolor. Donec at consectetur sem, a tempus augue. Nam interdum ullamcorper risus. Proin quis ante a mi iaculis euismod. Phasellus scelerisque purus eget mi varius, sit amet facilisis libero vestibulum.</p>
             <p><strong>Duis tortor odio, interdum et molestie ac...</strong></p>
             <ul class="no-indent">
@@ -34,46 +34,20 @@
             </ul>
         </article>
         <aside id="details-aside" class="col-sm-4">
-            <button id="btn-buy" type="button" class="btn btn-success btn-lg btn-block"><span class="glyphicon glyphicon-ok"></span>I want this!</button>
+            <a id="btn-buy" href="receipt.html" class="btn btn-success btn-lg btn-block"><span class="glyphicon glyphicon-ok"></span>I want this!</a>
             <ul id="details-infobox" class="list-group">
               <li class="list-group-item active cf">DETAILS</li>
               <li class="list-group-item">You'll get one PDF file</li>
               <li class="list-group-item cf">
-                <span class="float-left color-gray">Size</span>
+                <span class="float-left content-qualifier">Size</span>
                 <span class="float-right">21.5 MB</span>
               </li>
               <li class="list-group-item cf">
-                <span class="float-left color-gray">Length</span>
+                <span class="float-left content-qualifier">Length</span>
                 <span class="float-right">165 pages</span>
               </li>
             </ul>
         </aside>
-    </section>
-
-    <section id="content-receipt" class="cf">
-      <div id="receipt-container">
-        <div class="dotmatrix left"></div>
-        <div id="receipt-content">
-          <h4 id="receipt-title">Thank You!</h4>
-          <p><strong>RECEIPT</strong></p>
-          <div id="receipt-details" class="row cf">
-            <div class="col-sm-8 receipt-left">
-              <p><strong class="font-weight-heavy">Growth Hacking</strong><br/> <span class="font-weight-light">Crash Course</span></p>
-            </div>
-            <div class="col-sm-4">
-              $4.99
-            </div>
-          </div>
-
-          <button type="button" class="btn btn-success btn-xs">DOWNLOAD</button>
-          <footer id="receipt-footer">
-            <small>Your purchase is complete. We hope you enjoy it!</small>
-          </footer>
-        </div>
-        <div class="dotmatrix right"></div>
-      </div>
-      <div id="receipt-shadow"></div>
-      <button type="button" id="receipt-close" class="close btn" aria-hidden="true">&times;</button>
     </section>
 </div>
 <footer id="site-footer">
@@ -106,19 +80,6 @@ Made by <a href="http://onemonth.com" target="_blank"><img id="one-month-footer-
 <!-- Scripts -->
 <script src="http://code.jquery.com/jquery-latest.min.js"></script>
 <script src="js/lib/bootstrap.min.js"></script>
-<script>
-  $('#btn-buy').on('click',onBuyClick);
-  $('#receipt-close').on('click',onReceiptClose);
-
-  function onBuyClick(){
-    $('#content-receipt').addClass('active');
-  }
-
-  function onReceiptClose(){
-    $('#content-receipt').removeClass('active');
-  }
-
-</script>
 
 </body>
 </html>
