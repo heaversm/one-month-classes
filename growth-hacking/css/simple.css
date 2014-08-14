@@ -113,16 +113,20 @@ body {
 }
 
 #btn-buy {
-    background: black;
     border-radius: 5px 5px 0 0;
     border: 0;
     text-transform: uppercase;
     letter-spacing: .15em;
-    -webkit-transition: .3s all ease-out;
-    transition: .3s all ease-out;
 }
 
-#btn-buy:hover  {
+.btn {
+    background: black;
+    -webkit-transition: .3s all ease-out;
+    transition: .3s all ease-out;
+    border: 0px;
+}
+
+.btn:hover  {
     background: #85e1ff;
 }
 
@@ -132,6 +136,15 @@ body {
 }
 
 /* RECEIPT */
+
+#receipt-close {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    color: #2a2a2a;
+    font-size: 30px;
+    text-decoration: none;
+}
 
 #content-receipt {
     width: 75%;
