@@ -36,10 +36,6 @@ body {
     font-size: 22px;
 }
 
-.font-weight-light {
-    font-weight: 300;
-}
-
 #image-container {
     position: relative;
     height: 380px;
@@ -179,6 +175,10 @@ body {
 }
 
 /* SHARED */
+
+.font-weight-light {
+    font-weight: 300;
+}
 
 #modal-left {
     width: 55%;
