@@ -155,5 +155,14 @@ body.boxy-receipt #site-footer {
         width: 100%;
     }
 
+    #content-receipt {
+        width: 100%;
+        transform: translate(0, -50px);
+    }
+
+    body.boxy-receipt #site-footer {
+        transform: translate(0, -50px);
+    }
+
 
 }
