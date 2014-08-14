@@ -6,52 +6,63 @@
     <meta name="viewport" content="width=device-width, user-scalable=no">
     <title>One Month Growth Hacking</title>
     <link rel="stylesheet" href="css/lib/bootstrap.min.css">
-    <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,300,800' >
-    <link rel="stylesheet" href="css/main.css">
+    <script type="text/javascript" src="//use.typekit.net/ncy8ktx.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+    <link rel="stylesheet" href="css/simple.css">
 </head>
 
 <body>
+<header id="content-header">
+    <span id="site-logo" class="glyphicon glyphicon-upload"></span>
+    <h1 id="article-title">GROWTH HACKING</h1>
+    <h2 id="article-subtitle">Getting Your Idea Off the Ground in One Month</h2>
+    </div>
+</header>
+<div id="image-container" class="container">
+  <img id="content-header-img" src="img/header-image-simple.jpg" alt="Learn Rails in One Month - Pants Optional">
+  <div id="image-container-headings">
+    <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
+    <h4>By <a href="#" data-toggle="modal" data-target="#author-modal">Mattan Griffel</a></h4>
+  </div>
+</div>
 <div id="content" class="container">
-    <header id="content-header">
-        <div id="price-container">
-          <span class="glyphicon glyphicon-tag"></span><span class="price">$4.99</span>
-        </div>
-        <img id="content-header-img" src="img/header-image.jpg" alt="Learn Rails in One Month - Pants Optional">
-    </header>
-    <section id="content-details" class="row cf">
-        <article id="details-article" class="col-sm-8">
-            <h1 id="article-title">Growth Hacking <span class="font-weight-light">Crash Course</span></h1>
-            <h3><small>By <a href="#" data-toggle="modal" data-target="#author-modal">Mattan Griffel</a></small></h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim porta velit, quis rhoncus nulla. Maecenas mattis pulvinar tempus. Duis tortor odio, interdum et molestie ac, facilisis vitae dolor. Donec at consectetur sem, a tempus augue. Nam interdum ullamcorper risus. Proin quis ante a mi iaculis euismod. Phasellus scelerisque purus eget mi varius, sit amet facilisis libero vestibulum.</p>
-            <p><strong>Duis tortor odio, interdum et molestie ac...</strong></p>
-            <ul class="no-indent">
-                <li>Lorem ipsum dolor sit amet</li>
-                <li>Consectetur adipiscing elit</li>
-                <li>Integer molestie lorem at massa</li>
-                <li>Facilisis in pretium nisl aliquet</li>
-                <li>Nulla volutpat aliquam velit</li>
-                <li>Phasellus iaculis neque</li>
-            </ul>
+    <section id="content-details">
+        <article id="details-article">
+            <p><strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</strong> Integer dignissim porta velit, quis rhoncus nulla. Maecenas mattis pulvinar tempus. Duis tortor odio, interdum et molestie ac, facilisis vitae dolor. Donec at consectetur sem, a tempus augue. Nam interdum ullamcorper risus. Proin quis ante a mi iaculis euismod. Phasellus scelerisque purus eget mi varius, sit amet facilisis libero vestibulum.</p>
         </article>
-        <aside id="details-aside" class="col-sm-4">
-            <a id="btn-buy" href="receipt.html" class="btn btn-success btn-lg btn-block"><span class="glyphicon glyphicon-ok"></span>I want this!</a>
-            <ul id="details-infobox" class="list-group">
-              <li class="list-group-item active cf">DETAILS</li>
-              <li class="list-group-item">You'll get one PDF file</li>
-              <li class="list-group-item cf">
-                <span class="float-left content-qualifier">Size</span>
-                <span class="float-right">21.5 MB</span>
-              </li>
-              <li class="list-group-item cf">
-                <span class="float-left content-qualifier">Length</span>
-                <span class="float-right">165 pages</span>
-              </li>
-            </ul>
-        </aside>
+        <div id="details-list" class="row cf">
+            <div id="list-left" class="col-sm-8">
+              <p><strong>Duis tortor odio, interdum et molestie ac...</strong></p>
+              <ul class="no-indent">
+                  <li>Lorem ipsum dolor sit amet</li>
+                  <li>Consectetur adipiscing elit</li>
+                  <li>Integer molestie lorem at massa</li>
+                  <li>Facilisis in pretium nisl aliquet</li>
+                  <li>Nulla volutpat aliquam velit</li>
+                  <li>Phasellus iaculis neque</li>
+              </ul>
+            </div>
+            <aside id="details-aside" class="col-sm-4">
+              <a id="btn-buy" href="receipt-simple.html" class="btn btn-success btn-lg btn-block">I want this</a>
+              <ul id="details-infobox" class="list-group">
+                <li class="list-group-item active cf">DETAILS</li>
+                <li class="list-group-item">You'll get one PDF file</li>
+                <li class="list-group-item cf">
+                  <span class="float-left content-qualifier">Size</span>
+                  <span class="float-right">21.5 MB</span>
+                </li>
+                <li class="list-group-item cf">
+                  <span class="float-left content-qualifier">Length</span>
+                  <span class="float-right">165 pages</span>
+                </li>
+              </ul>
+          </aside>
+        </div>
+
     </section>
 </div>
 <footer id="site-footer">
-Made by <a href="http://onemonth.com" target="_blank"><img id="one-month-footer-logo" src="img/one-month-logo.svg" alt="One Month"></a>
+Made by <a href="http://onemonth.com" target="_blank"><img id="one-month-footer-logo" src="img/one-month-logo-gray.svg" alt="One Month"></a>
 </footer>
 
 <!-- Modal -->
@@ -59,7 +70,7 @@ Made by <a href="http://onemonth.com" target="_blank"><img id="one-month-footer-
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h4 class="modal-title"><span class="glyphicon glyphicon-user"></span> Mattan Griffel</h4>
+        <h4 class="modal-title"><span class="glyphicon glyphicon-upload"></span> Mattan Griffel</h4>
       </div>
       <div class="modal-body cf">
             <div id="modal-left" class="float-left">
