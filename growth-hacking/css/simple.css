@@ -1,5 +1,5 @@
 body {
-    font-family: "brandon-grotesque";
+    font-family: "Montserrat";
 }
 
 #content-header {
@@ -30,7 +30,7 @@ body {
 }
 
 #article-subtitle {
-    font-family: "ltc-bodoni-175";
+    font-family: 'Rufina', serif;
     text-align: center;
     margin-top: 0px;
     font-size: 22px;
@@ -54,13 +54,13 @@ body {
 }
 
 #image-container-headings h3 {
-    font-family: "brandon-grotesque";
+    font-family: "Montserrat";
     text-transform: uppercase;
 }
 
 #image-container-headings h4 {
     color: white;
-    font-family: "ltc-bodoni-175";
+    font-family: 'Rufina', serif;
 }
 
 #image-container-headings h4 a {
@@ -80,7 +80,7 @@ body {
 }
 
 #details-article {
-    font-family: "ltc-bodoni-175";
+    font-family: 'Rufina', serif;
 }
 
 #details-list {
@@ -105,7 +105,7 @@ body {
 }
 
 #list-left ul {
-    font-family: "ltc-bodoni-175";
+    font-family: 'Rufina', serif;
 }
 
 #list-left li {
@@ -182,7 +182,7 @@ body {
 }
 
 #receipt-footer {
-    font-family: "ltc-bodoni-175";
+    font-family: 'Rufina', serif;
     margin-top: 20px;
     text-align: center;
 }
