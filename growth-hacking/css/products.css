@@ -341,6 +341,14 @@ body {
         margin-bottom: 20px;
     }
 
+    .product-receipt #receipt-container {
+        width: 80%;
+    }
+
+    .product-receipt #receipt-shadow {
+        width: 90%;
+    }
+
 }
 
 @media (max-width: 479px) {
