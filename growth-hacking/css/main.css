@@ -9,27 +9,8 @@ ul.no-indent {
     padding-left: 0px;
 }
 
-/* clearfix */
-.cf:before,
-.cf:after {
-    content: " ";
-    display: table;
-}
-
-.cf:after {
-    clear: both;
-}
-
 .glyphicon {
     margin-right: 10px;
-}
-
-.float-left {
-    float: left;
-}
-
-.float-right {
-    float: right;
 }
 
 .content-qualifier {
@@ -135,6 +116,7 @@ body {
 
 #details-infobox {
     margin-top: 15px;
+    width: 100%;
 }
 
 #details-infobox .list-group-item.active {
@@ -221,25 +203,6 @@ body {
 #receipt-footer small {
     font-size: 10px;
     font-weight: 300;
-}
-
-#receipt-close {
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    background: #bbb;
-    color: white;
-    font-size: 20px;
-    width: 40px;
-    height: 40px;
-    border-radius: 10px;
-    text-align: center;
-    line-height: 40px;
-}
-
-#receipt-close:hover {
-    background:  #b1b1b1;
-    text-decoration: none;
 }
 
 

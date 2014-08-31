@@ -118,13 +118,6 @@ body {
     position: static;
 }
 
-#receipt-close {
-    width: 20px;
-    height: 20px;
-    border-radius: 0px;
-    line-height: 20px;
-}
-
 body.boxy-receipt #site-footer {
     transform: translate(200px, -150px);
 }

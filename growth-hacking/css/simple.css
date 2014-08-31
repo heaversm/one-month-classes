@@ -137,15 +137,6 @@ body {
 
 /* RECEIPT */
 
-#receipt-close {
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    color: #2a2a2a;
-    font-size: 30px;
-    text-decoration: none;
-}
-
 #content-receipt {
     width: 75%;
     margin: 0 auto;
@@ -218,17 +209,6 @@ body {
 
 .float-right {
     float: right;
-}
-
-/* clearfix */
-.cf:before,
-.cf:after {
-    content: " ";
-    display: table;
-}
-
-.cf:after {
-    clear: both;
 }
 
 .container {
