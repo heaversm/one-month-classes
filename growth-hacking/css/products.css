@@ -167,6 +167,30 @@ body {
 
 /* PRODUCT DETAILS PAGE */
 
+.product-content #title {
+    padding: 15px 15px 0 15px;
+}
+
+.product-content .product-title-container {
+    padding: 15px 0;
+    margin-bottom: 15px;
+    position: relative;
+    background: #f7f7f7;
+}
+
+.product-content #product-title {
+    margin: 0 0 25px 0;
+}
+
+.product-content .price {
+    float: right;
+    background: #df5a8e;
+    padding: 5px 10px;
+    color: white;
+    margin-left: 5px;
+    border-radius: 5px;
+}
+
 .product-content #details-aside {
     transform: translateY(0px);
     padding-right: 20px;
@@ -181,13 +205,6 @@ body {
 .product-content #content-header {
     height: 200px;
 }
-
-.product-content #article-title .font-weight-light {
-    display: block;
-}
-
-
-
 
 /* RECEIPT */
 
@@ -331,6 +348,11 @@ body {
     }
 
     /* PRODUCT DETAIL */
+
+    .product-content .product-title-container {
+        margin-bottom: 15px;
+    }
+
     .product-content #details-article {
         float: none;
         width: 100%;
